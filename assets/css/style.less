@@ -1,0 +1,169 @@
+@popcolor: #44cca7;
+@width: 950px;
+@proxima: "Proxima Nova";
+@minion: "Minion Pro";
+
+* {
+    margin: 0;
+}
+
+html, body {
+    font: 24px/1.5 @minion, sans-serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -130px;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+.wrapper:after {
+    height: 130px;
+}
+
+.container {
+    max-width: @width;
+}
+
+h1 {
+    font: 42px/1.5 @minion, sans-serif;
+    text-align: center;
+}
+h3 {
+    font-weight: 600;
+}
+
+a, a:hover {
+    color: @popcolor;
+    text-decoration: none;
+}
+
+// Navbar
+.navbar-default {
+    border: 0px;
+    background: none;
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0));
+    padding-top: 40px;
+
+    .navbar-nav {
+        a {
+            font: 14px/1 @proxima, sans-serif;
+            text-transform: uppercase;
+            color: @popcolor !important;
+            padding: 0 0 8px 0;
+            margin: 15px 30px 15px 0;
+        }
+        a.active {
+            border-bottom: 2px solid @popcolor;
+        }
+        a.heart {
+            font: 22px/1 @proxima, sans-serif;
+            margin-top: 12px;
+        }
+    }
+
+}
+
+section {
+    margin-bottom: 50px;
+    p {
+        margin-bottom: 1em;
+    }
+    h1 {
+        margin-bottom: 1em;
+    }
+}
+
+footer {
+    padding: 0px 0 50px 0;
+    font: 14px/1 @proxima, sans-serif;
+    color: rgba(0,0,0,0.4);
+    height: 130px;
+
+    hr {
+        border-top: 1px solid rgba(0,0,0,0.1);
+        margin-bottom: 50px;
+    }
+
+    a {
+        color: rgba(0,0,0,0.4);
+    }
+}
+
+// Section: about
+
+section#about {
+    .me {
+        max-width: 40%;
+        float: left;
+        margin: 0 30px 15px 0px;
+    }
+}
+
+// Section: code
+
+section#code {
+    margin-top: 50px;
+}
+
+// Section: events
+
+section#events {
+    margin-top: 50px;
+
+    h2 {
+        margin-top: 20px;
+        font: 18px/1 @proxima, sans;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    p {
+        font: 20px/1.5 @minion, sans-serif;
+    }
+    .row {
+        margin-bottom: 40px;
+    }
+}
+
+// Section: talks
+
+section#talks {
+    margin-top: 30px;
+
+    .header {
+        font-size: 23px;
+    }
+    ul {
+        margin-bottom: 60px;
+    }
+    .talk {
+        font: 20px/1.5 @proxima;
+    }
+    span {
+        font: 14px/1.5 @proxima;
+        text-transform: uppercase;
+        color: rgba(0,0,0,0.3);
+    }
+    .event {
+        font: 20px/1.5 @minion;
+        text-transform: none;
+        color: black;
+
+    }
+    a.event {
+        color: @popcolor;
+    }
+    iframe {
+        margin: 15px 0 10px 0;
+    }
+    p {
+        font: 20px/1.5 @minion;
+    }
+}

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  font: 24px/1.5 "Minion Pro", sans-serif;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -130px;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.wrapper:after {
+  height: 130px;
+}
+.container {
+  max-width: 950px;
+}
+h1 {
+  font: 42px/1.5 "Minion Pro", sans-serif;
+  text-align: center;
+}
+h3 {
+  font-weight: 600;
+}
+a,
+a:hover {
+  color: #44cca7;
+  text-decoration: none;
+}
+.navbar-default {
+  border: 0px;
+  background: none;
+  background-image: linear-gradient(#ffffff, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0));
+  padding-top: 40px;
+}
+.navbar-default .navbar-nav a {
+  font: 14px/1 "Proxima Nova", sans-serif;
+  text-transform: uppercase;
+  color: #44cca7 !important;
+  padding: 0 0 8px 0;
+  margin: 15px 30px 15px 0;
+}
+.navbar-default .navbar-nav a.active {
+  border-bottom: 2px solid #44cca7;
+}
+.navbar-default .navbar-nav a.heart {
+  font: 22px/1 "Proxima Nova", sans-serif;
+  margin-top: 12px;
+}
+section {
+  margin-bottom: 50px;
+}
+section p {
+  margin-bottom: 1em;
+}
+section h1 {
+  margin-bottom: 1em;
+}
+footer {
+  padding: 0px 0 50px 0;
+  font: 14px/1 "Proxima Nova", sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+  height: 130px;
+}
+footer hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+footer a {
+  color: rgba(0, 0, 0, 0.4);
+}
+section#about .me {
+  max-width: 40%;
+  float: left;
+  margin: 0 30px 15px 0px;
+}
+section#code {
+  margin-top: 50px;
+}
+section#events {
+  margin-top: 50px;
+}
+section#events h2 {
+  margin-top: 20px;
+  font: 18px/1 "Proxima Nova", sans;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+section#events p {
+  font: 20px/1.5 "Minion Pro", sans-serif;
+}
+section#events .row {
+  margin-bottom: 40px;
+}
+section#talks {
+  margin-top: 30px;
+}
+section#talks .header {
+  font-size: 23px;
+}
+section#talks ul {
+  margin-bottom: 60px;
+}
+section#talks .talk {
+  font: 20px/1.5 "Proxima Nova";
+}
+section#talks span {
+  font: 14px/1.5 "Proxima Nova";
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+section#talks .event {
+  font: 20px/1.5 "Minion Pro";
+  text-transform: none;
+  color: black;
+}
+section#talks a.event {
+  color: #44cca7;
+}
+section#talks iframe {
+  margin: 15px 0 10px 0;
+}
+section#talks p {
+  font: 20px/1.5 "Minion Pro";
+}
