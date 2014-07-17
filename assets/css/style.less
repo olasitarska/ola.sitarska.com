@@ -49,7 +49,7 @@ a, a:hover {
     border: 0px;
     background: none;
     background-image: linear-gradient(white, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0));
-    padding-top: 40px;
+    padding-top: 1em;
 
     .navbar-nav {
         a {
@@ -165,5 +165,50 @@ section#talks {
     }
     p {
         font: 20px/1.5 @minion;
+    }
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 768px) {
+    .navbar-default {
+        padding-top: 0.5em;
+        margin-bottom: 0;
+        .navbar-nav {
+            li {
+                float: left;
+                a {
+                    margin-top: 0.3em;
+                    margin-right: 0.9em;
+                    margin-bottom: 0;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    section {
+        margin-top: 0.35em !important;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 600px;
+    }
+
+    section#events {
+        .row {
+            margin-bottom: 0;
+        }
+    }
+
+    section#about {
+        h1 {
+            font-size: 26px;
+        }
+        p {
+            font-size: 20px;
+        }
     }
 }
