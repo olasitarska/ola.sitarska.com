@@ -3,7 +3,7 @@
 }
 html,
 body {
-  font: 24px/1.5 "Minion Pro", sans-serif;
+  font: 24px/1.5 "minion-pro", sans-serif;
   text-rendering: optimizeLegibility;
   height: 100%;
 }
@@ -22,7 +22,7 @@ body {
   max-width: 950px;
 }
 h1 {
-  font: 42px/1.5 "Minion Pro", sans-serif;
+  font: 42px/1.5 "minion-pro", sans-serif;
   text-align: center;
 }
 h3 {
@@ -40,7 +40,7 @@ a:hover {
   padding-top: 1em;
 }
 .navbar-default .navbar-nav a {
-  font: 14px/1 "Proxima Nova", sans-serif;
+  font: 14px/1 "proxima-nova", sans-serif;
   text-transform: uppercase;
   color: #44cca7 !important;
   padding: 0 0 8px 0;
@@ -50,7 +50,7 @@ a:hover {
   border-bottom: 2px solid #44cca7;
 }
 .navbar-default .navbar-nav a.heart {
-  font: 22px/1 "Proxima Nova", sans-serif;
+  font: 22px/1 "proxima-nova", sans-serif;
   margin-top: 12px;
 }
 section {
@@ -64,7 +64,7 @@ section h1 {
 }
 footer {
   padding: 0px 0 50px 0;
-  font: 14px/1 "Proxima Nova", sans-serif;
+  font: 14px/1 "proxima-nova", sans-serif;
   color: rgba(0, 0, 0, 0.4);
   height: 130px;
 }
@@ -88,13 +88,13 @@ section#events {
 }
 section#events h2 {
   margin-top: 20px;
-  font: 18px/1 "Proxima Nova", sans;
+  font: 18px/1 "proxima-nova", sans;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 section#events p {
-  font: 20px/1.5 "Minion Pro", sans-serif;
+  font: 20px/1.5 "minion-pro", sans-serif;
 }
 section#events .row {
   margin-bottom: 40px;
@@ -109,15 +109,15 @@ section#talks ul {
   margin-bottom: 60px;
 }
 section#talks .talk {
-  font: 20px/1.5 "Proxima Nova";
+  font: 20px/1.5 "proxima-nova";
 }
 section#talks span {
-  font: 14px/1.5 "Proxima Nova";
+  font: 14px/1.5 "proxima-nova";
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.3);
 }
 section#talks .event {
-  font: 20px/1.5 "Minion Pro";
+  font: 20px/1.5 "minion-pro";
   text-transform: none;
   color: black;
 }
@@ -128,7 +128,7 @@ section#talks iframe {
   margin: 15px 0 10px 0;
 }
 section#talks p {
-  font: 20px/1.5 "Minion Pro";
+  font: 20px/1.5 "minion-pro";
 }
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 768px) {
